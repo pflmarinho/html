@@ -1,0 +1,19 @@
+
+
+
+body{
+
+	background-color: gray;
+}
+img{
+	width: 200px;
+}
+h2{
+	background-color: red;
+	color: white;
+}
+h3{
+	background: green;
+	color:red;
+}
+<! external stile>
