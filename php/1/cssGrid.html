@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device, inital-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>CSS3 GRID LAYOUT</title>
+</head>
+<body>
+	<style>
+		{padding: 0; margin: 0;}
+		#main{
+			 display: grid;
+			 grid-template-areas: "header header" "nav nav" "content aside" "footer footer"
+		}
+
+		.mainHeader{ grid-area: header; background:red;}
+		.mainNav{ grid-area: nav; background:red;}
+		.mainContent{ grid-area: contet; background:red;}
+		.mainAside{ grid-area: aside; background:red;}
+		.mainFooter{ grid-area: footer; background:red;}
+
+
+	</style>
+
+	<section id="main">
+		<header class="mainHeader">Header</header>
+		<nav class="mainNav">Nav</nav>
+		<article class="mainContent">Content</article>
+		<aside class="mainAside">Aside</aside>
+		<footer class="mainFooter">Footer</footer>
+	</section>
+
+</body>
+</html>

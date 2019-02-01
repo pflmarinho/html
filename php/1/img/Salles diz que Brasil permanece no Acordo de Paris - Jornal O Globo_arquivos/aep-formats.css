@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* AEP-TAG Default CSS - 27/12/2017 */
+
+.adm-slave-placement {
+    z-index: 1000;
+}
+.aep-root {
+    display: block;
+}
+
+/* Creative */
+.adm-creative {
+    border-style: none;
+    visibility: hidden;
+    width: 100%;
+}
+.adm-anchor {
+    width: 100%;
+    height: 400px;
+}
+.adm-label{
+    font-family: sans-serif;
+    font-size: 11px;
+    color: #ccc;
+    text-align: center;
+    text-transform: uppercase;
+    height: 22px;
+    line-height: 22px;
+}

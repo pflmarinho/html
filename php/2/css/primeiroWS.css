@@ -1,5 +1,6 @@
 body{
 	text-align:center;
+	background-color: #C1CDC1;
 }
 .titulo{
 	
@@ -30,4 +31,11 @@ h3{
 
 .h2{
 	color: #1E90FF;
+}
+
+.Item{
+	color: #00008B;
+}
+.Main{
+	color: #8B0000;
 }

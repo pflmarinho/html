@@ -1,0 +1,664 @@
+
+
+
+/* CUSTOM CSS */
+@charset "utf-8";
+/* AEP - Oglobo - 940x387 - v2 - 27/04/2017 @ 14:27 */
+
+body{
+    margin:0;
+    padding:0;
+}
+#oglobo-940x387 *{
+	box-sizing: content-box;
+}
+#oglobo-940x387 p{
+	text-align: left;
+}
+#oglobo-940x387 ul.adm-products li p.criteo-advertiser{
+    height: 15px;
+    font-size: 12px;
+    line-height: 13px;
+    width: 100%;
+    color: #364352;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased !important;
+    left:0;
+    overflow:hidden;
+    text-align:center;
+    display: block;
+    bottom: 0;
+    text-transform: uppercase;
+}
+
+
+#oglobo-940x387 ul.adm-products li a div.adm-source{
+    height: 13px;
+    width: calc(100% - 10px);
+    position: relative;
+    display: table;
+    margin: 0 auto 5px auto;
+}
+
+#oglobo-940x387 ul.adm-products li a div.adm-source img.adm-advertiser{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 13px;
+    display: block;
+    border: none;
+    margin: 0 auto;
+}
+
+#oglobo-940x387{
+    width: 938px;
+    height: 385px;
+    border: 1px solid #ddd;
+    border-bottom: 1px solid #d7d8d9;
+    overflow: hidden;
+    background: #FFFFFF;
+    position: relative;
+}
+#oglobo-940x387 div.adm-shopping-title{
+    width: calc(100% - 20px);
+    height: 62px;
+    line-height: 62px;
+    border-bottom: 1px solid #E3E5E6;
+    margin: 0 auto;
+    padding:0 10px;
+}
+#oglobo-940x387 div.adm-shopping-title h1{
+    cursor: default;
+    color: #444;
+    font: 1.5em 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    float: left;
+    border-left-width: 7px;
+    border-left-style: solid;
+    border-left-color: #006097;
+    letter-spacing: -1px;
+    margin: 20px 25px 0 -10px;
+    padding: 0px 0 0 19px;
+    height: 26px;
+    line-height: 26px;
+    vertical-align: top;
+}
+
+/* formulario */
+#oglobo-940x387 div.adm-shopping-title form.seller-form{
+    display: inline-block;
+    float: right;
+    height: 100%;
+    margin-right: 2px;
+    width: 40%;
+}
+#oglobo-940x387 div.adm-shopping-title form.seller-form span.seller-input{
+    width: 99%;
+    height: 31px;
+    line-height: 31px;
+    border: 1px solid #E3E5E6;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #fff;
+    border-radius: 2px;
+    position: relative;
+    *margin:16px 10px 0 0;
+}
+#oglobo-940x387 div.adm-shopping-title form.seller-form span.seller-input span.i-search{
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAMAAABFjsb+AAAAXVBMVEUAAACEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhIQSdbvhAAAAHnRSTlMAE/nUzX/0xLGpDwfq411FHdqhPxm7lHlQSiFSNya8zDqzAAAApUlEQVQY01WPWQ7CMAwFnaVN9x0oBeb+x8TdUnU+8p5GsWTLxvKsca9SLsqkRrG+iWpykIbMA/n5S1VitPwGGHaXwFvutatJ5OSBX+NJWkQ3QqdRESRSpLQakMlFxUffHn8pYxk1XtguugZrNApHHl1/9IZzmTKD715zeLSmnJoe8GaXA5BWlg13bDsHVp23HgiL7HTtPOqUcUAld4qAPW+ITHUmf/qoDCFh7bH8AAAAAElFTkSuQmCC');
+    position: absolute;
+    left: 3px;
+    top: 7px;
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background-repeat: no-repeat;
+}
+#oglobo-940x387 div.adm-shopping-title form.seller-form span.seller-input span.input-content{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 264px;
+    padding-left: 25px;
+    height: 31px;
+    vertical-align: top;
+    
+    border-top: solid 1px #b3b3b3;
+	border-left: 1px solid #d1d1d1;
+	border-right: 1px solid white;
+	border-bottom: 1px solid #ddd;
+	border-radius: 3px 0 0 3px;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.15);
+}
+#oglobo-940x387 div.adm-shopping-title form.seller-form span.seller-input span.input-content input.seller-inputtext{
+    width: 259px;
+    border: 0 none;
+    position: absolute;
+    top: 3px;
+    left: 30px;
+    height: 23px;
+}
+#oglobo-940x387 div.adm-shopping-title form.seller-form span.seller-input span.input-content input.seller-inputtext:focus{
+    outline:none;
+}
+#oglobo-940x387 div.adm-shopping-title form.seller-form span.seller-input span.input-content span#seller-placeholder{
+    position: absolute;
+    overflow: hidden;
+    top: 8px;
+    left: 30px;
+    margin: 0px;
+    padding: 0px;
+    pointer-events: none;
+    color: rgb(205, 205, 193);
+    width: 266px;
+    height: 15px;
+    line-height: normal;
+    cursor: text;
+    display: block;
+    font: 12px/1.231 arial,Tahoma,helvetica,clean,sans-serif;
+    *margin-top:-5px;
+}
+#oglobo-940x387 div.adm-shopping-title form.seller-form span.seller-input input.seller-submit{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    float: right;
+    padding: 0 13px 0 13px;
+    color: #555;
+    background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 60%, #eeeeee 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(60%,#ffffff), color-stop(100%,#eeeeee));
+	background: -webkit-linear-gradient(top, #ffffff 60%,#eeeeee 100%);
+	background: -o-linear-gradient(top, #ffffff 60%,#eeeeee 100%);
+	background: -ms-linear-gradient(top, #ffffff 60%,#eeeeee 100%);
+	background: linear-gradient(to bottom, #ffffff 60%,#eeeeee 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 );
+    color: #555;
+    border-top: solid 1px #ddd;
+    border-bottom: solid 1px #b5b5b5;
+    border-right: solid 1px #d1d1d1;
+    border-left: solid 1px #d1d1d1;
+    border-radius: 2px;
+    display: inline-block;
+    outline: 0;
+    text-align: center;
+    box-shadow: 1px 1px 0 0 rgba(0,0,0,.1);
+    font-weight: 400;
+    vertical-align: bottom;
+    cursor: pointer;
+    min-width: 40px;
+    width: auto;
+    height: 31px;
+    line-height: 31px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    font-size: 14px;
+    margin:0;
+    *width:78px;
+    *position:absolute;
+    *right:0;
+    *top:0;
+    *line-height:27px; 
+    outline:none;
+    *border:none;
+}
+#oglobo-940x387 div.adm-shopping-title form.seller-form span.seller-input input.seller-submit:hover{
+    background: #ffffff;
+	cursor: pointer;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+#oglobo-940x387 div.adm-shopping-title form.seller-form span.seller-input input.seller-submit:active{
+    background: -moz-linear-gradient(top, #eeeeee 60%, #ffffff 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(60%,#eeeeee), color-stop(100%,#ffffff)); 
+	background: -webkit-linear-gradient(top, #eeeeee 60%,#ffffff 100%);  
+	background: -o-linear-gradient(top, #eeeeee 60%,#ffffff 100%);  
+	background: -ms-linear-gradient(top, #eeeeee 60%,#ffffff 100%);  
+	background: linear-gradient(to bottom, #eeeeee 60%,#ffffff 100%);  
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 );
+}
+
+#oglobo-940x387 div.adm-shopping-content ul li div.adm-advertiser-logo{
+    position: absolute;
+    width: 250px;
+    height: 32px;
+    z-index: 213;
+    top: 16px;
+    left: 150px;
+    padding-left: 20px;
+}
+
+#oglobo-940x387 div.adm-shopping-content ul li div.adm-advertiser-logo div.adm-source {
+    width: auto;
+    height: 25px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+}
+
+#oglobo-940x387 div.adm-shopping-content ul li div.adm-advertiser-logo div.adm-source img.adm-advertiser {
+    width: auto;
+    max-height: 25px;
+    display: inline-block;
+    border: none;
+    max-width: 250px;
+    height: 100%;
+    vertical-align: middle;
+}
+/* productos */
+#oglobo-940x387 div.adm-shopping-content{
+	width: 938px;
+    height: 356px;
+    position: absolute;
+    bottom: 29px;
+}
+
+#oglobo-940x387 div.adm-shopping-content ul{
+	width: auto;
+    height: 345px;
+    list-style: none;
+    padding: 0 0 11px 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    bottom: 0;
+}
+#oglobo-940x387 div.adm-shopping-content ul li{
+	width: 938px;
+    height: 356px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+#oglobo-940x387 div.adm-shopping-content ul li ul{
+	list-style: none;
+    margin: 75px 0 0 0;
+    width: 100%;
+    height: 267px;
+    padding: 0;
+    position: relative;
+}
+#oglobo-940x387 div.adm-shopping-content ul li ul li{
+	float:left;
+	width:147px;
+	height:238px;
+	padding:20px;
+	border-left: 1px dashed #E3E5E6;
+	overflow:hidden;
+    display: none;
+}
+#oglobo-940x387 div.adm-shopping-content ul li ul li:first-child{
+    border:none; 
+    width:146px;
+}
+
+#oglobo-940x387 div.adm-shopping-content ul li ul li a{
+    text-decoration:none;
+    cursor:pointer;
+    display:block;
+    width:100%; 
+    height:100%;
+}
+#oglobo-940x387 div.adm-shopping-content ul li ul li a img{
+    border:none;
+    max-width: 100%;
+	max-height: 100%;
+	border:none;
+	box-sizing: content-box !important;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+#oglobo-940x387 div.adm-shopping-content ul li ul li a div.shopping-img{
+	width:100px;
+	height:100px;
+	background:#ffffff;
+	margin:0 auto;
+	overflow:hidden;
+    border:none;
+    position: relative;
+}
+
+#oglobo-940x387 div.adm-shopping-content ul li ul li a div.shopping-txt {
+    font-family:arial,Tahoma,helvetica,clean,sans-serif;
+    width:151px;
+	height:92px; 
+	text-transform:uppercase;
+}
+#oglobo-940x387 div.adm-shopping-content ul li ul li a div.shopping-txt p.adm-title{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #444;
+	margin: 10px 0 0 0;
+	height: 38px;
+	overflow: hidden;
+	line-height:19px;
+	display:block;
+	font-weight:bold;
+}
+#oglobo-940x387 div.adm-shopping-content ul li ul li a div.shopping-txt p.adm-text{
+	font-size:11px;
+	color: #a6a6a6;
+	margin: 10px 0 0 0;
+	height: 13px;
+    line-height: 13px!important;
+    overflow: hidden;
+    padding: 0;
+}
+#oglobo-940x387 div.adm-shopping-content ul li ul li a div.shopping-txt p.adm-price{
+    font-size: 20px;
+    line-height: 24px!important;
+    color: #006097;
+    margin: 5px 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    overflow: hidden;
+}
+#oglobo-940x387 div.adm-shopping-content ul li ul li a:hover div.shopping-txt p.adm-title,#oglobo-940x387 div.adm-shopping-content ul li ul li a:hover div.shopping-txt p.adm-price{
+    text-decoration:underline;
+}
+
+/* Pasador */
+#oglobo-940x387 div.adm-shopping-tabs{
+	width: 100%;
+    height: 29px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#oglobo-940x387 div.adm-shopping-tabs ul{
+	width: calc(100% + 2px);
+	height:27px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	position:relative;
+    display: table;
+    table-layout: fixed;
+}
+#oglobo-940x387 div.adm-shopping-tabs ul li{
+	width:auto;
+	height:27px;
+	padding: 0;
+	display: table-cell;
+    font: bold 11px 'Montserrat', sans-serif;
+    line-height: 40px;
+	border-left: 1px solid #ddd;
+	background-image: linear-gradient(-180deg,#fff 0,#f3f3f3 100%);
+	color: #848484;
+	cursor:pointer;
+	position:relative;
+	border-top: 1px solid #ddd;
+	 -webkit-user-select: none;
+	 -khtml-user-select: none;
+	 -moz-user-select: none;
+	 -o-user-select: none;
+	 -ms-user-select: none;
+	 user-select: none;
+    text-transform:uppercase;
+}
+#oglobo-940x387 div.adm-shopping-tabs ul li:first-child{
+    border-left:none;
+}
+#oglobo-940x387 div.adm-shopping-tabs ul li:last-child{
+    border-right: 1px solid #e3e5e6;
+}
+#oglobo-940x387 div.adm-shopping-tabs ul li p.adm-category{
+    font-family: 'Montserrat', sans-serif;
+    height:32px;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    color:#848484;
+}
+#oglobo-940x387 div.adm-shopping-tabs ul li div.arrow{
+	/*margin:0 auto;*/
+	left:47%;
+	top:-7px;
+	position:absolute;
+	width:0px;
+	height:0px;
+}
+#oglobo-940x387 div.adm-shopping-tabs ul li div.arrow.active{
+	top:0px;
+	position:absolute;
+	-webkit-animation: toActiveArrow 0.3s ease;
+	-moz-animation: toActiveArrow 0.3s ease;
+	-o-animation: toActiveArrow 0.3s ease;
+	-ms-animation: toActiveArrow 0.3s ease;
+	animation: toActiveArrow 0.3s ease;
+}
+#oglobo-940x387 div.adm-shopping-tabs ul li span.arrow-fill{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #ffffff;
+	position:absolute;
+	top:-1px;
+	margin-left:2px;
+	z-index:2;
+}
+#oglobo-940x387 div.adm-shopping-tabs ul li span.arrow-border{
+	width: 0px;
+	height: 0px;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 7px solid #e3e5e6;
+	position:absolute;
+	top:-1px;
+	z-index:1;
+}
+#oglobo-940x387 div.adm-shopping-tabs ul li:hover{
+    background:#FCFCFC;
+}
+
+#oglobo-940x387 div.adm-shopping-tabs ul li.active{
+	background:#F9F9F9;
+    position: relative;
+	-webkit-animation: toActiveLi 0.2s ease;
+	-moz-animation: toActiveLi 0.2s ease;
+	-ms-animation: toActiveLi 0.2s ease;
+	-o-animation: toActiveLi 0.2s ease;
+	animation: toActiveLi 0.2s ease;
+}
+#oglobo-940x387 div.adm-shopping-tabs ul li div.adm-progress-bar-wrapper{
+    display: none;
+}
+#oglobo-940x387 div.adm-shopping-tabs ul li.active div.adm-progress-bar-wrapper{
+    display: block;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: 4px;
+    background-color: #dadada;
+    -webkit-animation: toActiveProgressBar 0.3s ease;
+	-moz-animation: toActiveProgressBar 0.3s ease;
+	-ms-animation: toActiveProgressBar 0.3s ease;
+	-o-animation: toActiveProgressBar 0.3s ease;
+	animation: toActiveProgressBar 0.3s ease;
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    -ms-animation-delay: 0.3s;
+    -o-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-fill-mode:backwards;
+    -moz-animation-fill-mode:backwards;
+    -ms-animation-fill-mode:backwards;
+    -o-animation-fill-mode:backwards;
+    animation-fill-mode:backwards;
+}
+#oglobo-940x387 div.adm-shopping-tabs ul li.active div.adm-progress-bar-wrapper div.adm-progress-bar{
+    width: 0px;
+    height: 100%;
+    background-color: #006097;
+    -webkit-animation: progressBar forwards linear;
+			animation: progressBar forwards linear;
+	float: left;
+
+}
+
+/* Animación */
+@keyframes toActiveLi
+{
+	0%{
+        background-image: linear-gradient(-180deg,#fff 0,#f3f3f3 100%);
+    }
+	100%{
+        background:#F9F9F9;
+    }
+}
+@-webkit-keyframes toActiveLi
+{
+	0%{
+        background-image: linear-gradient(-180deg,#fff 0,#f3f3f3 100%);
+    }
+	100%{
+        background:#F9F9F9;
+    }
+}
+@-moz-keyframes toActiveLi
+{
+	0%{
+        background-image: linear-gradient(-180deg,#fff 0,#f3f3f3 100%);
+    }
+	100%{
+        background:#F9F9F9;
+    }
+}
+@-o-keyframes toActiveLi
+{
+	0%{
+        background-image: linear-gradient(-180deg,#fff 0,#f3f3f3 100%);
+    }
+	100%{
+        background:#F9F9F9;
+        height:37px;
+    }
+}
+@-ms-keyframes toActiveLi
+{
+	0%{
+        background-image: linear-gradient(-180deg,#fff 0,#f3f3f3 100%);
+    }
+	100%{
+        background:#F9F9F9;
+    }
+}
+
+@keyframes toActiveArrow
+{
+	0%{
+        top:-7px;
+    }
+	100%{
+        top:0px;
+    }
+}
+@-webkit-keyframes toActiveArrow
+{
+	0%{
+        top:-7px;
+    }
+	100%{
+        top:0px;
+    }
+}
+
+@keyframes toActiveProgressBar
+{
+	0%{
+        transform: translateY(3px);
+    }
+	100%{
+        transform: translateY(0px);
+    }
+}
+@-webkit-keyframes toActiveProgressBar
+{
+	0%{
+        -webkit-transform: translateY(3px);
+    }
+	100%{
+        -webkit-transform: translateY(0px);
+    }
+}
+@-moz-keyframes toActiveProgressBar
+{
+	0%{
+        -moz-transform: translateY(3px);
+    }
+	100%{
+        -moz-transform: translateY(0px);
+    }
+}
+@-o-keyframes toActiveProgressBar
+{
+	0%{
+        -o-transform: translateY(3px);
+    }
+	100%{
+        -o-transform: translateY(0px);
+    }
+}
+@-ms-keyframes toActiveProgressBar
+{
+	0%{
+        -ms-transform: translateY(3px);
+    }
+	100%{
+        -ms-transform: translateY(0px);
+    }
+}
+
+@keyframes progressBar {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+-webkit-@keyframes progressBar {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+-moz-@keyframes progressBar {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+-o-@keyframes progressBar {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+-ms-@keyframes progressBar {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
