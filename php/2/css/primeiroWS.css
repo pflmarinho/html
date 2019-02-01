@@ -1,9 +1,9 @@
 body{
 	text-align:center;
-<<<<<<< HEAD
-	background-color: #C1CDC1;
-=======
->>>>>>> 967bf31a0d707c23e882b3b5506c6019485f465a
+
+	background-image: url("https://s2.best-wallpaper.net/wallpaper/1920x1080/1307/Beautiful-cosmic-space-planets-stars_1920x1080.jpg");
+ 	
+ 	
 }
 .titulo{
 	
@@ -20,28 +20,31 @@ body{
 
 }
 
-.separador{
-
-	
+.plano1{
+	background-image: url("");
 }
+
 
 h1{
-	color:#000080;
+	color:#B8860B;
 }
 h3{
-	color: #2F4F4F;
+	color:#FFFFE0;
+}
+.nova{
+	color: black;
 }
 
 .h2{
-	color: #1E90FF;
+	color:#0000CD;
 }
-<<<<<<< HEAD
 
+.topicos{
+	color: #E8E8E8;
+}
 .Item{
-	color: #00008B;
+	color: #98F5FF;
 }
 .Main{
-	color: #8B0000;
+	color: #E0FFFF;
 }
-=======
->>>>>>> 967bf31a0d707c23e882b3b5506c6019485f465a
