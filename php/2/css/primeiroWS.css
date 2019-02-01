@@ -1,6 +1,9 @@
 body{
 	text-align:center;
+<<<<<<< HEAD
 	background-color: #C1CDC1;
+=======
+>>>>>>> 967bf31a0d707c23e882b3b5506c6019485f465a
 }
 .titulo{
 	
@@ -32,6 +35,7 @@ h3{
 .h2{
 	color: #1E90FF;
 }
+<<<<<<< HEAD
 
 .Item{
 	color: #00008B;
@@ -39,3 +43,5 @@ h3{
 .Main{
 	color: #8B0000;
 }
+=======
+>>>>>>> 967bf31a0d707c23e882b3b5506c6019485f465a
