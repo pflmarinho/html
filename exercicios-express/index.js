@@ -1,6 +1,14 @@
 const express = require('express')
 const app = express()
 
+const saudacao = require(./saudacaomid)
+
+app.use(saudacao('guilherme'))
+app.use((req, res, next) =>{
+    console.log('antes...')
+    next()
+})
+
 app.get(("/opa", (req, res) => {
     res.json([
         data: [
@@ -14,6 +22,11 @@ app.get(("/opa", (req, res) => {
         status:200;
         
     })
+    next()
+
+app.use("/opa",(req, res) =>{
+    console.log('sera que serei chamado?')
+})
 
 app.listen(3000, () => {
     console.log("backend executando...")
