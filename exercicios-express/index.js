@@ -8,6 +8,9 @@ app.use((req, res, next) =>{
     console.log('antes...')
     next()
 })
+app.get('/cliente/id', (req,res) => {
+    res.send(´cliente ${} selecionado)
+})
 
 app.get(("/opa", (req, res) => {
     res.json([
